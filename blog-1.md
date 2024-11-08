@@ -1,10 +1,14 @@
-Union Types:
-Union types allow a variable to hold values of different types. By using the | (pipe) operator, you can define a type that can be one of several options. This is helpful when a variable can take multiple forms, offering flexibility while still maintaining type safety.
+ Union Types
+Union types in TypeScript allow us to define a variable or parameter that can hold values of multiple types. To create a union type, use the | operator between the types within parentheses.
 
-Example:
+// Union type example
+type Status = "active" | "inactive" | "pending";
 
-typescript
-Copy code
-let value: string | number;
-value = "Hello"; // Valid
-value = 42; // Valid
+function setStatus(status: Status) {
+  // Function logic
+}
+In the above example, the Status type is a union of three string literals - "active," "inactive," and "pending." The setStatus function can now accept any of these three values as its argument.
+
+Handling Union Types
+When working with variables or parameters of union types, TypeScript offers type guards and conditional checks to narrow down the possible types and perform specific actions…
+

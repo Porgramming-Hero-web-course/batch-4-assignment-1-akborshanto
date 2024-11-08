@@ -4,5 +4,4 @@ function validateKeys<T extends object>(obj: T, keys: (keyof T)[]): boolean {
   
   // Sample Input
   const person = { name: "Alice", age: 25, email: "shantoe@example.com" };
-  console.log(validateKeys(person, ["name", "age"])); // Output: true
-  
+  console.log(validateKeys(person, ["name", "age"])); 

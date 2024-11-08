@@ -24,7 +24,7 @@ type Circle = {
   
   // Sample Input 1
   const circleArea = calculateShapeArea({ shape: "circle", radius: 5 });
-  console.log(circleArea); // Output: 78.54
+  console.log(circleArea);
   
   // Sample Input 2
   const rectangleArea = calculateShapeArea({
@@ -32,5 +32,5 @@ type Circle = {
     width: 4,
     height: 6,
   });
-  console.log(rectangleArea); // Output: 24
+  console.log(rectangleArea); 
   
