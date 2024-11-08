@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+      "target": "es2016",  // Set to ES2016 or later
+      "lib": ["es2016", "dom"],  // Include ES2016 and other necessary libraries
+      "strict": true
+    }
+  }
+  

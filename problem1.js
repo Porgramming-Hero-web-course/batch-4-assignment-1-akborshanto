@@ -1,5 +1,6 @@
+"use strict";
 //PROBLEM 1
 function sumArray(num) {
-    return num.reduce(function (acc, current) { return acc + current; }, 0);
+    return num.reduce((acc, current) => acc + current, 0);
 }
-var result = sumArray([1, 2, 3, 4, 5,]);
+const result = sumArray([1, 2, 3, 4, 5,]);
